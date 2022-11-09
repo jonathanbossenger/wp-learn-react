@@ -1,0 +1,20 @@
+{
+  "name": "wp-learn-react",
+  "version": "1.0.0",
+  "description": "Building WordPress blocks using React/JSX",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "packages-update": "wp-scripts packages-update",
+    "plugin-zip": "wp-scripts plugin-zip",
+    "start": "wp-scripts start"
+  },
+  "author": "Jonathan Bossenger",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@wordpress/scripts": "24.5.0"
+  }
+}
